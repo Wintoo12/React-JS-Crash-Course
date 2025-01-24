@@ -1,0 +1,39 @@
+What is React?
+- React is a JavaScript Library/framework for building user interfaces. It was created by facebook
+- Websites/UIs are looked at in terms of components
+- React is currently the most popular out of the major front-end frameworks.
+
+Why React
+- React allows us to build very dynamic and interactive websites and user interfaces.
+- Very fast, especially with the new compiler.
+- There is a huge ecosystem from Next.js to React Native.
+- Best framework to learn to get a job.
+
+components
+- Reusable piece of code that can e used to build elements on the page.
+- Allows us to break down complex UIs, which makes them easier to maintain and scale.
+- Components can get props passed in and can hold their own state.
+
+State
+- State represents the data that a component manages internally.
+- This could be form input data, fetched data, UI-related data like if a modal is open/close.
+- There is also global state, which relates to the app as a whole and not a single component.
+
+Hooks
+- Allows us to use state and other React features within functional components
+- useState          - useEffect
+- useRef            - useReducer
+
+What is JSX (JavaScript Syntax Extension)
+-An HTML-like syntax within JavaScript (components)
+
+SPA, SSR, & SSG:
+* Single Page App - Load a single html file and JavaScript loads the entire UI including routes.
+* Server-Side Rendered - Server sends fully rendered page to client. You can fetch data and load it as well.
+* Static Site Generation - React generates statuc HTML files at build time. These are very fast
+
+Vite
+- Vite is a super fast front-end toolkit that can be used for all kionds of JS projects including React.
+- It is built on top of ESBuild, which is a very fast JS bundler.
+- Fast development server with hot-reload.
+- Installed with npm create vite @latest
