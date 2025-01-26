@@ -10,6 +10,7 @@ Why React
 - Best framework to learn to get a job.
 
 components
+- Building block of every react app
 - Reusable piece of code that can e used to build elements on the page.
 - Allows us to break down complex UIs, which makes them easier to maintain and scale.
 - Components can get props passed in and can hold their own state.
@@ -37,3 +38,25 @@ Vite
 - It is built on top of ESBuild, which is a very fast JS bundler.
 - Fast development server with hot-reload.
 - Installed with npm create vite @latest
+
+{ } - Curly braces
+- This accepts values such as strings and numbers directly
+- Can be used to make your attributes dynamic
+- You can also style react elements using a js object whtin the curly braced 
+            (Ex:  const background = 'red'
+                  <div style{{ background }}>)
+
+In react, you can only return one parent element from a component
+
+prop
+- it refers to the properties on an object in which you get in the parameters of each component
+- to use the prop take it from the object like a normal JavaScript property
+- you can pass anything as a prop
+- example of using a prop:
+    1. Make a prop, give it a value 
+    <Greeting text = {'Yo'}/>
+    2. Use prop value
+    function Greeting(props){
+        return <h1>{props.text}</h1>
+    }
+
